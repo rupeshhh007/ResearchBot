@@ -9,17 +9,18 @@
         "sidePanel",
         "scripting"
     ],
-    "action":{
-        "default_title":"Research Assistant"
+    "action": {
+        "default_title": "Research Assistant"
     },
-    "side_panel":{
-        "default_path":"sidepanel.html"
+    "side_panel": {
+        "default_path": "sidepanel.html"
     },
-    "background":{
+    "background": {
         "service_worker": "background.js"
     },
     "host_permissions": [
         "http://localhost:8080/*",
+        "https://researchbot-1.onrender.com/*",
         "<all_urls>"
     ],
     "content_security_policy": {
